@@ -10,9 +10,10 @@ const CharacterList = () => {
             id: 1,
             name: 'Vegeta',
             altura: '2.05',
-            peso: '100',
+            peso: '100232',
             fuerza: '1000',
             category: 'F6',
+            peleas: '100',
             image: vegeta
         },
         {
@@ -22,6 +23,7 @@ const CharacterList = () => {
             peso: '95',
             fuerza: '870',
             category: 'F6',
+            peleas: '100',
             image: trunks
         }
     ]

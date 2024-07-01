@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Saiyan';
+    src: url('/fonts/Saiyan-Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-saiyan {
+    font-family: 'Saiyan', sans-serif;
+  }
+
 .style-category {
     clip-path: polygon(0 0, 81% 0, 100% 100%, 0% 100%);
+}
+
+.style-esferas {
+    clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+}
+
+.fondo-category {
+    background: linear-gradient(0deg, #EDBB06, #E65501);
+}
+
+.fondo-description {
+    background: linear-gradient(0deg, #EA9502, #FDFF69);
+}
+
+.sombra{
+    text-shadow: 
+    1px 1px 0px black,
+    -1px -1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    1px 0px 0px black,
+    0px 1px 0px black,
+    -1px 0px 0px black,
+    0px -1px 0px black;
 }
